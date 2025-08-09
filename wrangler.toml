@@ -1,0 +1,9 @@
+name = "rota-serra-charme-paxixi"
+compatibility_date = "2025-08-04"
+main = "src/worker.js"
+
+[build]
+command = "bun run build"
+
+[site]
+bucket = "./dist" 
